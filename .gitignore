@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+
+# Video files (Too large for GitHub)
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Python cache
+__pycache__/
+*.pyc
