@@ -23,7 +23,7 @@ A classical computer vision pipeline that detects lane boundaries in dashcam foo
 - **Stable extrapolation:** NumPy (`polyfit`, `average`) computes each segment's slope and intercept, averages them per lane, and extends one clean line per side across the lower part of the frame.
 - **Targeted ROI:** A custom trapezoid mask blocks out the left guardrail and other distractions so the detector locks onto the lane the vehicle is driving in.
 - **Interactive GUI:** A Tkinter file picker lets you load videos of any resolution (`.mp4`, `.avi`, `.mov`, `.mkv`).
-- **Dynamic rendering:** A resizable display window and a semi-transparent polygon overlay (35% opacity) show the drivable space.
+- **Dynamic rendering:** A resizable display window and a semi-transparent polygon overlay (35% opacity) show the drivable 
 
 ---
 
